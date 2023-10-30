@@ -1,0 +1,28 @@
+.images1:hover{
+    filter: blur(4px);
+    cursor: pointer;
+}
+.images2{
+    filter:brightness(400%);
+}
+.images3{
+    filter:drop-shadow(20px 20px 20px green) ;
+}
+.images4{
+    filter:grayscale(150%) ;
+}
+.images5{
+    filter:hue-rotate(80°) ;    
+}
+.images6{
+    filter:invert(100%) ;
+}
+.images7{
+    filter:opacity(50%);
+}
+.images8{
+    filter:saturate(50%) ;
+}
+.images9{
+    filter:sepia(100%);
+}

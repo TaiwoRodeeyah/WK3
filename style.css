@@ -1,0 +1,25 @@
+/* main{
+    display: grid;
+    grid-template-columns: fr 1fr 1fr;
+    gap: 1em */
+
+main{
+    display: grid;
+    g
+}
+section{
+    border: 10px solid blue;
+}
+section:nth-of-type(3n+3){
+    border: 5px solid palegreen;
+    border-radius: 2em 0 2em 0;
+}
+section:nth-of-type(2n+2){
+    border: 5px solid skyblue;
+    border-radius: 0 2em 0 2em;
+}
+section :nth-child(odd){
+    background-color: #ccc;
+    color: #000;
+}
+    

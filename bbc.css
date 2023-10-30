@@ -1,0 +1,12 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 300px);
+}
+section{
+    background-image: url(nikelogo.jpg) ;
+    border: 1px solid;
+    background-size: cover;
+    background-repeat: repeat;
+
+}
